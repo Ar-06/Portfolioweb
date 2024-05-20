@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(90deg, rgb(244,244,245), rgb(218,217,217));
+}
+
+
+.menu {
+    background: linear-gradient(90deg, rgb(244,244,245), rgb(218,217,217));
+    width: 100%;
+    height: 10vh;
+    padding: 0 5%;
+}
+
+.seccion_1, .seccion_2, .seccion_3{
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 5%;
+}
+.seccion_1 .img{
+    width: 300px;
+    height: 350px;
+}
+
+.seccion_3 .img{
+    width: 280px;
+    height: 280px;
+}
+
+.seccion_1 button{
+    width: 100px;
+}
+
+.seccion_3 .parrafo{
+    width: 550px;
+}
+
+.tecno{
+    width: 100%;
+    min-height: 70vh;
+    padding: 0 5%;
+}
+
+.footer{
+    width: 100%;
+    min-height: 20vh;
+    padding: 0 5%;
+}
+
+.container-fluid {
+    background-image: url('background.jpg');
+    background-color: #f0f0f0; /* Color de respaldo si la imagen no se carga */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+} 
